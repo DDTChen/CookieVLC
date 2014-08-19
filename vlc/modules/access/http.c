@@ -222,6 +222,7 @@ static int AuthCheckReply( access_t *p_access, const char *psz_header,
 static int Open( vlc_object_t *p_this )
 {
     access_t *p_access = (access_t*)p_this;
+
     char * queryString = strrchr(p_access->psz_location, '?');
     if (queryString == NULL) {
     msg_Dbg( p_access, "#### http cookie queryString == NULL: %s", p_access->psz_location);
@@ -642,14 +643,20 @@ error:
 
     Disconnect( p_access );
     vlc_tls_Delete( p_sys->p_creds );
-
+/*
     if( p_sys->cookies )
     {
         int i;
-        for( i = 0; i < vlc_array_count( p_sys->cookies ); i++ )
+msg_Dbg( p_access, "#### http cookie destroy begin1");
+        for( i = 0; i < vlc_array_count( p_sys->cookies ); i++ ) {
+            msg_Dbg( p_access, "#### http cookie destroy: %s", vlc_array_item_at_index( p_sys->cookies, i ));
             free(vlc_array_item_at_index( p_sys->cookies, i ));
+        }
+msg_Dbg( p_access, "#### http cookie destroy end0");
         vlc_array_destroy( p_sys->cookies );
+msg_Dbg( p_access, "#### http cookie destroy end1");
     }
+*/
 
 #ifdef HAVE_ZLIB_H
     inflateEnd( &p_sys->inflate.stream );
@@ -665,6 +672,8 @@ static void Close( vlc_object_t *p_this )
 {
     access_t     *p_access = (access_t*)p_this;
     access_sys_t *p_sys = p_access->p_sys;
+
+msg_Dbg( p_access, "#### http cookie Close begin");
 
     vlc_UrlClean( &p_sys->url );
     http_auth_Reset( &p_sys->auth );
@@ -687,10 +696,14 @@ static void Close( vlc_object_t *p_this )
 
     if( p_sys->cookies )
     {
+/*
+msg_Dbg( p_access, "#### http cookie destroy begin");
         int i;
         for( i = 0; i < vlc_array_count( p_sys->cookies ); i++ )
             free(vlc_array_item_at_index( p_sys->cookies, i ));
         vlc_array_destroy( p_sys->cookies );
+msg_Dbg( p_access, "#### http cookie destroy end");
+*/
     }
 
 #ifdef HAVE_ZLIB_H
@@ -1556,6 +1569,7 @@ static int Request( access_t *p_access, uint64_t i_tell )
             if( p_sys->cookies )
             {
                 msg_Dbg( p_access, "Accepting Cookie: %s", p );
+msg_Dbg( p_access, "#### http cookie Accepting Cookie: %s", p );
                 cookie_append( p_sys->cookies, strdup(p) );
             }
             else

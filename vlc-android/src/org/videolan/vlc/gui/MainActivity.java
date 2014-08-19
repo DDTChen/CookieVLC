@@ -693,6 +693,7 @@ public class MainActivity extends SherlockFragmentActivity {
         input.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_NORMAL);
         b.setTitle(R.string.open_mrl_dialog_title);
         b.setMessage(R.string.open_mrl_dialog_msg);
+input.setText("http://192.168.10.61:80/base/10001/course/10000001/content/course_introduce.mp4?school_hash=68216452e7b0cf7ec100012082320931; idx=HKjo4l0J6agrDK056llYUpniWf3jPT4q");
         b.setView(input);
         b.setPositiveButton(R.string.open, new DialogInterface.OnClickListener() {
             @Override

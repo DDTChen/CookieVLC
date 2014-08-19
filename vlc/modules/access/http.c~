@@ -224,16 +224,19 @@ static int Open( vlc_object_t *p_this )
     access_t *p_access = (access_t*)p_this;
     char * queryString = strrchr(p_access->psz_location, '?');
     if (queryString == NULL) {
+    msg_Dbg( p_access, "#### http cookie queryString == NULL: %s", p_access->psz_location);
         return OpenWithCookies( p_this, p_access->psz_access, 5, NULL );
     }
-
+    msg_Dbg( p_access, "#### http cookie before get_cookie_array: %s ", queryString);
     vlc_array_t* cookies = get_cookie_array( p_access, queryString );
 
     queryString[0] = '\0';
 
     if (vlc_array_count( cookies ) > 0) {
+    msg_Dbg( p_access, "#### http cookie vlc_array_count( cookies ) > 0");
         return OpenWithCookies( p_this, p_access->psz_access, 5, cookies );
     } else {
+    msg_Dbg( p_access, "#### http cookie vlc_array_count( cookies ) == 0");
         return OpenWithCookies( p_this, p_access->psz_access, 5, NULL );
     }
 
@@ -266,7 +269,8 @@ static int OpenWithCookies( vlc_object_t *p_this, const char *psz_access,
     bool   b_forward_cookies = var_InheritBool( p_access, "http-forward-cookies" );
     vlc_array_t * saved_cookies = b_forward_cookies ? (cookies ? cookies : vlc_array_new()) : NULL;
 
-    msg_Dbg( p_access, "#### http cookie count: %d ", vlc_array_count( saved_cookies ));
+    msg_Dbg( p_access, "#### http cookie OpenWithCookies location: %s ", p_access->psz_location);
+    msg_Dbg( p_access, "#### http cookie ??? count: %d ", vlc_array_count( saved_cookies ));
     if (vlc_array_count( saved_cookies ) > 0) {
         for (int i=0;i<vlc_array_count( saved_cookies );i++) {
             msg_Dbg( p_access, "#### http cookie: %s ", vlc_array_item_at_index( saved_cookies, i ));
@@ -1634,9 +1638,11 @@ static vlc_array_t* get_cookie_array( access_t *p_access, const char * urlQueryS
 
     if ( urlQueryString == NULL ) return cookies;
 
+msg_Dbg( p_access, "#### http cookie urlQueryString: %s ", urlQueryString);
+
     char * queryString = strdup( urlQueryString );
     if( !queryString ) return cookies;
-
+msg_Dbg( p_access, "#### http cookie queryString: %s ", queryString);
     char * searchResult;
     while (queryString) {
         searchResult = strstr(queryString, "; ");
@@ -1647,6 +1653,7 @@ static vlc_array_t* get_cookie_array( access_t *p_access, const char * urlQueryS
             vlc_array_append(cookies, searchResult+2);
         }
         searchResult[0] = '\0';
+msg_Dbg( p_access, "#### http cookie searchResult: %s ", queryString);
     }
     return cookies;
 }

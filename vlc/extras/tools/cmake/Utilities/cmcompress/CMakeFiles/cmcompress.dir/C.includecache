@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ddt/Documents/VLC0924/android/vlc/extras/tools/cmake/Utilities/cmcompress/cmcompress.c
+cmcompress.h
+/home/ddt/Documents/VLC0924/android/vlc/extras/tools/cmake/Utilities/cmcompress/cmcompress.h
+errno.h
+-
+string.h
+-
+
+/home/ddt/Documents/VLC0924/android/vlc/extras/tools/cmake/Utilities/cmcompress/cmcompress.h
+stdio.h
+-
+

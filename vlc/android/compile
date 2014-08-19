@@ -1,0 +1,8 @@
+#! /bin/bash
+rm -f .error$$
+ERROR=0
+export PATH="/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/bin:/home/ddt/Documents/VLC0924/android/vlc/extras/tools/build/bin:/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin:/home/ddt/Documents/chrome/depot_tools:/home/ddt/Documents/android-sdk/android-ndk-r8e:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/ddt/Documents/android/sdk/platform-tools:/home/ddt/Documents/android/sdk/tools" LANG=C
+(make V=1 $@ 2>&1 || touch .error$$)| ../extras/buildsystem/make.pl
+test -f .error$$ && ERROR=1
+rm -f .error$$
+exit $ERROR

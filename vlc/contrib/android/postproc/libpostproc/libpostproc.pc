@@ -1,0 +1,14 @@
+prefix=/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libpostproc
+Description: FFmpeg/Libav postprocessing library
+Version: 52.0.100
+Requires: libavutil
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lpostproc 
+Libs.private: 
+Cflags: -I${includedir}

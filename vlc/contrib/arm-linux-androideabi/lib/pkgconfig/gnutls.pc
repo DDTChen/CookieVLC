@@ -1,0 +1,23 @@
+# Process this file with autoconf to produce a pkg-config metadata file.
+
+# Copyright (C) 2004-2012 Free Software Foundation, Inc.
+
+# Copying and distribution of this file, with or without modification,
+# are permitted in any medium without royalty provided the copyright
+# notice and this notice are preserved.  This file is offered as-is,
+# without any warranty.
+
+# Author: Simon Josefsson
+
+prefix=/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: GnuTLS
+Description: Transport Security Layer implementation for the GNU system
+URL: http://www.gnutls.org/
+Version: 3.1.12
+
+Cflags: -I${includedir}
+Libs:  -L${libdir} -lgnutls  -L/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/lib -lnettle -L/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/lib -lhogweed -L/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/lib -lgmp -lz        

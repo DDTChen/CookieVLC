@@ -1,0 +1,11 @@
+prefix=/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libmodplug
+Description: The ModPlug mod file playing library.
+Version: 0.8.8.4
+Requires:
+Cflags: -I${includedir}
+Libs:  -L${libdir} -lmodplug   -lstdc++ -lm

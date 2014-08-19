@@ -1,0 +1,22 @@
+Determining if the function __RTTI___ exists in the Crun failed with the following output:
+Change Dir: /home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+make[1]: Entering directory `/home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[2]: Entering directory `/home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/CMakeFiles/CMakeTmp'
+/home/ddt/Documents/VLC0924/android/vlc/extras/tools/build/bin/cmake -E cmake_progress_report /home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm  -g -mfpu=vfpv3-d16 -mcpu=cortex-a8 -mthumb -mfloat-abi=softfp -O2 -I/home/ddt/Documents/android-sdk/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include -I/home/ddt/Documents/android-sdk/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include -I/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include -g -fPIC  -Wall  -DCHECK_FUNCTION_EXISTS=__RTTI___   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /home/ddt/Documents/VLC0924/android/vlc/extras/tools/build/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec
+/home/ddt/Documents/VLC0924/android/vlc/extras/tools/build/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-gcc --sysroot=/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm   -g -mfpu=vfpv3-d16 -mcpu=cortex-a8 -mthumb -mfloat-abi=softfp -O2 -I/home/ddt/Documents/android-sdk/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/include -I/home/ddt/Documents/android-sdk/android-ndk-r9/sources/cxx-stl/gnu-libstdc++/4.8/libs/armeabi-v7a/include -I/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include -g -fPIC  -Wall  -DCHECK_FUNCTION_EXISTS=__RTTI___    -L/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/lib CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec -rdynamic -lCrun 
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/../lib/gcc/arm-linux-androideabi/4.8/../../../../arm-linux-androideabi/bin/ld: error: cannot find -lCrun
+/home/ddt/Documents/VLC0924/android/vlc/extras/tools/build/share/cmake-2.8/Modules/CheckFunctionExists.c:11: error: undefined reference to '__RTTI___'
+collect2: error: ld returned 1 exit status
+make[2]: Leaving directory `/home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/CMakeFiles/CMakeTmp'
+make[1]: Leaving directory `/home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/CMakeFiles/CMakeTmp'
+make[2]: *** [cmTryCompileExec] Error 1
+make[1]: *** [cmTryCompileExec/fast] Error 2
+
+

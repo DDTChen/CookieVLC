@@ -1,0 +1,4 @@
+/home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/CMakeFiles/docs.dir
+/home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/taglib/CMakeFiles/tag.dir
+/home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/bindings/c/CMakeFiles/tag_c.dir
+/home/ddt/Documents/VLC0924/android/vlc/contrib/android/taglib/CMakeFiles/uninstall.dir

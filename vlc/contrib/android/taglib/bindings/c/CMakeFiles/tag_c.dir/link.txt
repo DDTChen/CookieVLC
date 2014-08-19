@@ -1,0 +1,2 @@
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ar cr libtag_c.a  CMakeFiles/tag_c.dir/tag_c.cpp.o
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin/arm-linux-androideabi-ranlib libtag_c.a

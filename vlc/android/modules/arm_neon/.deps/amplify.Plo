@@ -1,0 +1,1 @@
+amplify.lo: ../../../modules/arm_neon/amplify.S

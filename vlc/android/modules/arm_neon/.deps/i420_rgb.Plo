@@ -1,0 +1,1 @@
+i420_rgb.lo: ../../../modules/arm_neon/i420_rgb.S

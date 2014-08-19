@@ -1,0 +1,385 @@
+libfreetype_plugin_la-freetype.lo: \
+ ../../../modules/text_renderer/freetype.c ../../config.h \
+ ../../../include/vlc_fixups.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/android/api-level.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdint.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/errno.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/errno.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/errno.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/math.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/page.h \
+ ../../../include/vlc_common.h ../../../include/vlc_config.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdlib.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/string.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/malloc.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/alloca.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/strings.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/memory.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/inttypes.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdbool.h \
+ ../../../include/vlc_mtime.h ../../../include/vlc_threads.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/unistd.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/select.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/time.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/time.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/signal.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/signal.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/siginfo.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysconf.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/capability.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/pathconf.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/pthread.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/time.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sched.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/poll.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/poll.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/poll.h \
+ ../../../include/vlc_arrays.h ../../../include/vlc_messages.h \
+ ../../../include/vlc_objects.h ../../../include/vlc_variables.h \
+ ../../../include/vlc_main.h ../../../include/vlc_configuration.h \
+ ../../../include/vlc_plugin.h ../../../include/vlc_stream.h \
+ ../../../include/vlc_block.h ../../../include/vlc_input.h \
+ ../../../include/vlc_es.h ../../../include/vlc_fourcc.h \
+ ../../../include/vlc_meta.h ../../../include/vlc_epg.h \
+ ../../../include/vlc_events.h ../../../include/vlc_input_item.h \
+ ../../../include/vlc_xml.h ../../../include/vlc_strings.h \
+ ../../../include/vlc_charset.h ../../../include/vlc_dialog.h \
+ ../../../include/vlc_filter.h ../../../include/vlc_picture.h \
+ ../../../include/vlc_atomic.h ../../../include/vlc_subpicture.h \
+ ../../../include/vlc_text_style.h ../../../include/vlc_mouse.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftsynth.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/ft2build.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/config/ftheader.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/freetype.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/config/ftconfig.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/config/ftoption.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/config/ftstdlib.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/setjmp.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/setjmp.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/fttypes.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftsystem.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftimage.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/fterrors.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftmoderr.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/fterrdef.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftglyph.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftstroke.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftoutln.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-common.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-config.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-unicode.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-types.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-begindecls.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-enddecls.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-unicode-version.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-flags.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-bidi-types.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-bidi-types-list.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-bidi.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-joining-types.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-joining-types-list.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-joining.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-mirroring.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-arabic.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-shape.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-char-sets.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-char-sets-list.h \
+ /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-deprecated.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/assert.h
+
+../../config.h:
+
+../../../include/vlc_fixups.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdint.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/errno.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/errno.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/errno.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/math.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/page.h:
+
+../../../include/vlc_common.h:
+
+../../../include/vlc_config.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdlib.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/string.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/malloc.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/alloca.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/strings.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/memory.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/inttypes.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdbool.h:
+
+../../../include/vlc_mtime.h:
+
+../../../include/vlc_threads.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/unistd.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/select.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/time.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/time.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/signal.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/signal.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/siginfo.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysconf.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/capability.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/pathconf.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/pthread.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/time.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sched.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/poll.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/poll.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/poll.h:
+
+../../../include/vlc_arrays.h:
+
+../../../include/vlc_messages.h:
+
+../../../include/vlc_objects.h:
+
+../../../include/vlc_variables.h:
+
+../../../include/vlc_main.h:
+
+../../../include/vlc_configuration.h:
+
+../../../include/vlc_plugin.h:
+
+../../../include/vlc_stream.h:
+
+../../../include/vlc_block.h:
+
+../../../include/vlc_input.h:
+
+../../../include/vlc_es.h:
+
+../../../include/vlc_fourcc.h:
+
+../../../include/vlc_meta.h:
+
+../../../include/vlc_epg.h:
+
+../../../include/vlc_events.h:
+
+../../../include/vlc_input_item.h:
+
+../../../include/vlc_xml.h:
+
+../../../include/vlc_strings.h:
+
+../../../include/vlc_charset.h:
+
+../../../include/vlc_dialog.h:
+
+../../../include/vlc_filter.h:
+
+../../../include/vlc_picture.h:
+
+../../../include/vlc_atomic.h:
+
+../../../include/vlc_subpicture.h:
+
+../../../include/vlc_text_style.h:
+
+../../../include/vlc_mouse.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftsynth.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/ft2build.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/config/ftheader.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/freetype.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/config/ftconfig.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/config/ftoption.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/config/ftstdlib.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/setjmp.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/setjmp.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/fttypes.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftsystem.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftimage.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/fterrors.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftmoderr.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/fterrdef.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftglyph.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftstroke.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/freetype2/freetype/ftoutln.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-common.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-config.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-unicode.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-types.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-begindecls.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-enddecls.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-unicode-version.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-flags.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-bidi-types.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-bidi-types-list.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-bidi.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-joining-types.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-joining-types-list.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-joining.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-mirroring.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-arabic.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-shape.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-char-sets.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-char-sets-list.h:
+
+/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/fribidi/fribidi-deprecated.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/assert.h:

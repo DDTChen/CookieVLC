@@ -1,0 +1,1 @@
+simple_channel_mixer.lo: ../../../modules/arm_neon/simple_channel_mixer.S

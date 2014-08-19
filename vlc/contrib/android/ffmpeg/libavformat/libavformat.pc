@@ -1,0 +1,14 @@
+prefix=/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavformat
+Description: Libav container format library
+Version: 55.5.1
+Requires: libavcodec = 55.20.0
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavformat -lopenjpeg -lgsm -lm -lz
+Libs.private: 
+Cflags: -I${includedir}

@@ -1,0 +1,240 @@
+libextract_plugin_la-extract.lo: ../../../modules/video_filter/extract.c \
+ ../../config.h ../../../include/vlc_fixups.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/android/api-level.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdint.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/posix_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/stddef.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/compiler.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/posix_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/kernel.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/errno.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/errno.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/errno.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h \
+ ../../../include/vlc_common.h ../../../include/vlc_config.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdlib.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/string.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/malloc.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/alloca.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/strings.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/memory.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/inttypes.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdbool.h \
+ ../../../include/vlc_mtime.h ../../../include/vlc_threads.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/unistd.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/select.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/time.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/time.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/signal.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/internal_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/limits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/syslimits.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/page.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/signal.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/siginfo.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysconf.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/capability.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/pathconf.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/pthread.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/time.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sched.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/poll.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/poll.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/poll.h \
+ ../../../include/vlc_arrays.h ../../../include/vlc_messages.h \
+ ../../../include/vlc_objects.h ../../../include/vlc_variables.h \
+ ../../../include/vlc_main.h ../../../include/vlc_configuration.h \
+ ../../../include/vlc_plugin.h ../../../include/vlc_filter.h \
+ ../../../include/vlc_es.h ../../../include/vlc_fourcc.h \
+ ../../../include/vlc_picture.h ../../../include/vlc_atomic.h \
+ ../../../include/vlc_subpicture.h ../../../include/vlc_text_style.h \
+ ../../../include/vlc_mouse.h \
+ ../../../modules/video_filter/filter_picture.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/math.h
+
+../../config.h:
+
+../../../include/vlc_fixups.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/stdio.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdint.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/posix_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/stddef.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/compiler.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/posix_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/kernel.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysmacros.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdarg.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/errno.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/errno.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/errno.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/errno.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/errno-base.h:
+
+../../../include/vlc_common.h:
+
+../../../include/vlc_config.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdlib.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/string.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/malloc.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/alloca.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/strings.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/memory.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/inttypes.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdbool.h:
+
+../../../include/vlc_mtime.h:
+
+../../../include/vlc_threads.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/unistd.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/select.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/time.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/time.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/signal.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include-fixed/syslimits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/internal_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/limits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/syslimits.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/page.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/signal.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/signal.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/sigcontext.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/siginfo.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm-generic/siginfo.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/sysconf.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/capability.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/pathconf.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/pthread.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/time.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sched.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/poll.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/linux/poll.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/asm/poll.h:
+
+../../../include/vlc_arrays.h:
+
+../../../include/vlc_messages.h:
+
+../../../include/vlc_objects.h:
+
+../../../include/vlc_variables.h:
+
+../../../include/vlc_main.h:
+
+../../../include/vlc_configuration.h:
+
+../../../include/vlc_plugin.h:
+
+../../../include/vlc_filter.h:
+
+../../../include/vlc_es.h:
+
+../../../include/vlc_fourcc.h:
+
+../../../include/vlc_picture.h:
+
+../../../include/vlc_atomic.h:
+
+../../../include/vlc_subpicture.h:
+
+../../../include/vlc_text_style.h:
+
+../../../include/vlc_mouse.h:
+
+../../../modules/video_filter/filter_picture.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/math.h:

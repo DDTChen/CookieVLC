@@ -1,0 +1,12 @@
+prefix=/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: LibVNCServer
+Description: A library for easy implementation of a VNC server.
+Version: 0.9.9
+Requires:
+Libs: -L${libdir} -lvncserver -lz -ljpeg -L/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/lib -lgcrypt -lgpg-error -L/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/lib -lgnutls -lnettle -lhogweed -lgmp -lz   
+Cflags: -I${includedir}
+

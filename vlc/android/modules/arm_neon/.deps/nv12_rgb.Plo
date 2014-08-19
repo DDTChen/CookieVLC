@@ -1,0 +1,1 @@
+nv12_rgb.lo: ../../../modules/arm_neon/nv12_rgb.S

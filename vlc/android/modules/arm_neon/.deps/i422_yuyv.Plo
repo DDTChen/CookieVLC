@@ -1,0 +1,1 @@
+i422_yuyv.lo: ../../../modules/arm_neon/i422_yuyv.S

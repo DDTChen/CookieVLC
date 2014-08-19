@@ -1,0 +1,34 @@
+strverscmp.lo: ../../compat/strverscmp.c \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdint.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/_types.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/string.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/android/api-level.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/malloc.h \
+ /home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/ctype.h
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stdint.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/stdint.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/lib/gcc/arm-linux-androideabi/4.8/include/stddef.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/machine/_types.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/string.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/sys/cdefs_elf.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/android/api-level.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/malloc.h:
+
+/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm/usr/include/ctype.h:

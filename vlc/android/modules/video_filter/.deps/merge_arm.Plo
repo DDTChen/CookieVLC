@@ -1,0 +1,1 @@
+merge_arm.lo: ../../../modules/video_filter/deinterlace/merge_arm.S

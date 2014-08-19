@@ -1,0 +1,4 @@
+ (LA)	/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/lib/libopenjpeg.la
+ (A)	/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/lib/libopenjpeg.a
+ (H)	/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/openjpeg-1.5/openjpeg.h
+ (LN)	/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi/include/openjpeg.h

@@ -1,0 +1,8 @@
+libspatializer_plugin_la-comb.lo: \
+ ../../../modules/audio_filter/spatializer/comb.cpp \
+ ../../../modules/audio_filter/spatializer/comb.hpp \
+ ../../../modules/audio_filter/spatializer/denormals.h
+
+../../../modules/audio_filter/spatializer/comb.hpp:
+
+../../../modules/audio_filter/spatializer/denormals.h:

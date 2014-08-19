@@ -1,0 +1,8 @@
+libspatializer_plugin_la-allpass.lo: \
+ ../../../modules/audio_filter/spatializer/allpass.cpp \
+ ../../../modules/audio_filter/spatializer/allpass.hpp \
+ ../../../modules/audio_filter/spatializer/denormals.h
+
+../../../modules/audio_filter/spatializer/allpass.hpp:
+
+../../../modules/audio_filter/spatializer/denormals.h:

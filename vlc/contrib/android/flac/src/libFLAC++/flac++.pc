@@ -1,0 +1,11 @@
+prefix=/home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: FLAC++
+Description: Free Lossless Audio Codec Library (C++ API)
+Version: 1.3.0
+Requires.private: flac
+Libs: -L${libdir} -lFLAC++
+Cflags: -I${includedir}

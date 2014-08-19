@@ -1,0 +1,1 @@
+i420_rv16.lo: ../../../modules/arm_neon/i420_rv16.S

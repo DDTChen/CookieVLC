@@ -1,0 +1,7 @@
+set(_CMAKE_TOOLCHAIN_PREFIX arm-linux-androideabi-)
+set(CMAKE_C_COMPILER arm-linux-androideabi-gcc --sysroot=/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm)
+set(CMAKE_CXX_COMPILER arm-linux-androideabi-g++ --sysroot=/home/ddt/Documents/android-sdk/android-ndk-r9/platforms/android-9/arch-arm)
+set(CMAKE_FIND_ROOT_PATH /home/ddt/Documents/VLC0924/android/vlc/contrib/arm-linux-androideabi)
+set(CMAKE_FIND_ROOT_PATH_MODE_PROGRAM NEVER)
+set(CMAKE_FIND_ROOT_PATH_MODE_LIBRARY ONLY)
+set(CMAKE_FIND_ROOT_PATH_MODE_INCLUDE ONLY)
